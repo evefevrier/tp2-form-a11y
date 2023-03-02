@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/* @import url(normalize.css); */
+/* @import url(utilitaires.css); */
+
+.disponibilite__dates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.disponibilite__dates fieldset {
+    border: none;
+}
+
+.disponibilite__date {
+    display: flex;
+    width: 45%;
+}

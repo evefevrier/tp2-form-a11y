@@ -7,15 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Réservation | Auberge du jacana africain</title>
-    <link rel="stylesheet" href="../css/style.css">
+
 </head>
 
 <body>
     <header>
-        <!-- <a href="../index.html">
+        <a href="../index.html">
             <p><img src="../images/logo-jacana.png" alt=""></p>
             <p class="titre">Auberge du jacana africain</p>
-        </a> -->
+        </a>
         <!-- Ajouter un menu : Accueil, Historique, Région, Contact, Réservation -->
         <p> <a href="../index.html">accueil</a> | <a href="index.html">réservation</a>
     </header>
@@ -34,58 +34,6 @@
                 <button type="button" id="check-availability-button">Vérifier la disponibilité</button>
                 <p id="availability-message"></p>
             </div>
-
-            <fieldset class="form-section disponibilite">
-                <legend>
-                    <h2>1. Vérifier la disponibilité</h2>
-                </legend>
-                <div class="disponibilite__dates">
-                    <fieldset>
-                        <legend>
-                            <h3>Date d'arrivée&#8239;:</h3>
-                        </legend>
-                        <div class="disponibilite__date">
-                            <p>
-                                <label for="jour-arrivee">jour</label>
-                                <input type="number" id="jour-arrivee" name="jour-arrivee" min="1" max="31">
-                            </p>
-
-                            <p>
-                                <label for="mois-arrivee">mois</label>
-                                <input type="number" id="mois-arrivee" name="mois-arrivee" min="1" max="12">
-                            </p>
-
-                            <p>
-                                <label for="annee-arrivee">annee</label>
-                                <input type="number" id="annee-arrivee" name="annee-arrivee" min="2023" max="2024">
-                            </p>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <legend>
-                            <h3>Date de départ&#8239;:</h3>
-                        </legend>
-                        <div class="disponibilite__date">
-                            <p>
-                                <label for="jour-depart">jour</label>
-                                <input type="number" id="jour-depart" name="jour-depart" min="1" max="31">
-                            </p>
-
-                            <p>
-                                <label for="mois-depart">mois</label>
-                                <input type="number" id="mois-depart" name="mois-depart" min="1" max="12">
-                            </p>
-
-                            <p>
-                                <label for="annee-depart">annee</label>
-                                <input type="number" id="annee-depart" name="annee-depart" min="2023" max="2024">
-                            </p>
-                        </div>
-                    </fieldset>
-                </div>
-                <p><button type="button" id="check-availability-button">Vérifier la disponibilité</button></p>
-                <p id="availability-message"></p>
-            </fieldset>
 
             <div class="form-section">
                 <h2>2. Nombre de personnes </h2>
