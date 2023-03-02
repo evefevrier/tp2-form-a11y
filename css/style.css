@@ -5,7 +5,14 @@
 
 .disponibilite__dates {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+}
+
+@media (min-width: 600px) {
+    .disponibilite__dates {
+        flex-direction: row;
+    }
 }
 
 .disponibilite__dates fieldset {
@@ -14,5 +21,16 @@
 
 .disponibilite__date {
     display: flex;
+    align-items: baseline;
     width: 45%;
+}
+
+.disponibilite h3,
+.disponibilite p {
+    margin: 0;
+}
+
+.disponibilite .disponibilite__check {
+    margin-top: 1rem;
+    margin-left: 14px;
 }
