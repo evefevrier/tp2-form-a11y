@@ -3,6 +3,11 @@
 /* @import url(normalize.css); */
 /* @import url(utilitaires.css); */
 
+
+/* ajouter une table des matières ici */
+
+
+/* Dates arrivée et départ */
 .disponibilite__dates {
     display: flex;
     flex-direction: column;
@@ -33,4 +38,20 @@
 .disponibilite .disponibilite__check {
     margin-top: 1rem;
     margin-left: 14px;
+}
+
+/* Styler le focus */
+/* https://css-tricks.com/having-a-little-fun-with-custom-focus-styles/ */
+input:focus,
+textarea:focus,
+keygen:focus,
+select:focus {
+    outline-offset: 3px;
+}
+
+:focus {
+    /* outline: 5px auto purple; */
+    outline: none;
+    box-shadow: 3px 3px 2px 2px purple;
+    color: rgb(56, 0, 56);
 }
