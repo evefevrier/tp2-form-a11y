@@ -3,34 +3,17 @@
    ========================================================================
  * Les valeurs de taille de police suggérées ici sont à titre indicatif.
  * À ajuster selon la direction visuelle et le choix de polices de caractères.
- *
- * @author Prénom Nom courriel
- *
- * TABLE DES MATIÈRES
- * Polices
- * Base décimale
- * Hiérarchie responsive
- *
- *
- * Doc des points de rupture :
- * ==========================================================================
- * Écran étroit : de 0 à 599px
- * point de rupture: 600px
- *
- * Écran moyen : de 600 à 799px
- * point de rupture: 800px
- *
+ * 
+ * Doc des points de rupture : 
+ * Écran étroit : de 0 à 599px / point de rupture: 600px
+ * Écran moyen : de 600 à 799px / point de rupture: 800px
  * Écran large : 800px et +
+ * 
+ * Google Fonts
+ * font-family: 'News Cycle', sans-serif;
+ * font-family: 'Roboto Slab', serif;
  */
 
-
-/* Polices */
-/* Selon le projet, il est souvent préférable d'utiliser le lien @import des Google Fonts
- * plutôt que de servir directement les polices de caractères à l'aide d'instructions @font-face
- * et d'un dossier de polices dans la structure de répertoires.
- * La méthode ci-dessous vise à offrir dans l'ordre de priorité les 3 formats possibles pour
- * assurer la meilleure compatibilité.
- */
 
 h1,
 .h1,
@@ -41,11 +24,12 @@ h3,
 h4,
 .h4 {
     font-family: 'News Cycle', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 body {
-    font-family: 'News Cycle', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
 }
 
 
