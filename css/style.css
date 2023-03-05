@@ -34,6 +34,9 @@ footer {
     /* -2rem pour compenser le padding du main */
 }
 
+/* Signature */
+/* le logo et titre du site sont stylés dans le fichier grille */
+
 /* Base formulaire Réservation */
 
 .form-section {
@@ -162,7 +165,6 @@ input[type="number"] {
     display: block;
 }
 
-/* annuler les puces de la liste chambres */
 .forfait img {
     width: 100%;
 }
