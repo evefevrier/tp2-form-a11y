@@ -248,7 +248,7 @@ button:focus {
 
 /* Gestion des erreurs */
 .erreur {
-    display: none;
+    /* display: none; */
 }
 
 .icone {
