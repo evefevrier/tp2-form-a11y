@@ -6,9 +6,11 @@
 @import url(utilitaires.css);
 @import url(typo.css);
 @import url(grille.css);
+@import url(composants/menu.css);
 
 
 /**
+ * Base commune aux pages
  * Base formulaire Réservation
  * Dates arrivée et départ
  * Nombre de personnes
@@ -17,6 +19,20 @@
  * Gestion des erreurs 
  **/
 
+
+/* Base commune aux pages */
+header,
+footer {
+    background-color: var(--couleur-form);
+    margin: -1.5rem -2rem;
+    padding: 2rem 2rem;
+}
+
+footer {
+    /* margin: 2rem -2rem -2rem -2rem; */
+    margin: 2rem -2rem -2rem;
+    /* -2rem pour compenser le padding du main */
+}
 
 /* Base formulaire Réservation */
 
@@ -42,9 +58,27 @@ fieldset fieldset legend {
     padding: 0.5rem;
 }
 
+fieldset h2 {
+    margin: 0;
+}
+
 select {
     border-radius: 5px;
     margin: 0 0.25rem
+}
+
+button {
+    background-color: var(--couleur-bouton);
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--couleur-bouton-hover);
+    box-shadow: var(--bouton-box-shadow);
 }
 
 /* Dates arrivée et départ */
@@ -105,6 +139,21 @@ input[type="number"] {
     width: 3rem;
     text-align: center;
 
+}
+
+.soumettre,
+.disponibilite__check {
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    .soumettre {
+        text-align: left;
+    }
+
+    [type="submit"] {
+        margin-left: 2rem;
+    }
 }
 
 /* Choix Chambres */
@@ -191,6 +240,10 @@ select:focus {
     outline: none;
     box-shadow: 2px 2px 1px 1px lightskyblue;
     color: rgb(56, 0, 56);
+}
+
+button:focus {
+    box-shadow: var(--bouton-box-shadow);
 }
 
 /* Gestion des erreurs */

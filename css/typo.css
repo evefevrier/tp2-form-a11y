@@ -23,12 +23,13 @@ h3,
 .h3,
 h4,
 .h4 {
-    font-family: 'News Cycle', sans-serif;
+    font-family: var(--police-titre);
     font-weight: 600;
 }
 
+
 body {
-    font-family: 'Roboto Slab', serif;
+    font-family: var(--police-texte);
     font-weight: 300;
 }
 

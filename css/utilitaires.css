@@ -3,10 +3,13 @@
 
 /****** Variables (peuvent être utilisées dans tous les fichiers) *******/
 :root {
-    /* --couleur-texte: #022b50;
-    --couleur-titres-h1-h3: darkmagenta; */
+    --police-titre: 'News Cycle', sans-serif;
+    --police-texte: 'Roboto Slab', serif;
+    --couleur-titres-h1-h3: rgb(255, 255, 255);
     --couleur-form: #cccccc8f;
-    /* --box-shadow: 5px 5px 5px; */
+    --couleur-bouton: lightskyblue;
+    --couleur-bouton-hover: azure;
+    --bouton-box-shadow: 5px 5px 5px;
 }
 
 /*** Clearfix ***/
