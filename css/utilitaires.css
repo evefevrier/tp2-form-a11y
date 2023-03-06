@@ -5,7 +5,7 @@
 :root {
     --police-titre: 'News Cycle', sans-serif;
     --police-texte: 'Roboto Slab', serif;
-    --couleur-titres-h1-h3: rgb(255, 255, 255);
+    --couleur-titres-h1-h3: #551a8b;
     --couleur-form: #cccccc8f;
     --couleur-bouton: lightskyblue;
     --couleur-bouton-hover: azure;

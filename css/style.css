@@ -23,13 +23,21 @@
 /* Base commune aux pages */
 header,
 footer {
-    background-color: var(--couleur-form);
+    background-color: black;
     margin: -1.5rem -2rem;
     padding: 2rem 2rem;
 }
 
+@media (min-width:600px) {
+
+    header,
+    footer {
+        padding: 4rem;
+    }
+}
+
 footer {
-    /* margin: 2rem -2rem -2rem -2rem; */
+    background-color: var(--couleur-form);
     margin: 2rem -2rem -2rem;
     /* -2rem pour compenser le padding du main */
 }
@@ -241,11 +249,27 @@ select:focus {
     /* outline: 5px auto purple; */
     outline: none;
     box-shadow: 2px 2px 1px 1px lightskyblue;
-    color: rgb(56, 0, 56);
 }
 
 button:focus {
     box-shadow: var(--bouton-box-shadow);
+}
+
+.signature:link {
+    color: rgb(172, 112, 39);
+}
+
+.signature:visited {
+    color: var(--couleur-titres-h1-h3);
+}
+
+.signature:hover {
+    color: green
+}
+
+.signature:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 /* Gestion des erreurs */
