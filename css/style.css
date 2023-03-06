@@ -12,6 +12,7 @@
 /**
  * Base commune aux pages
  * Base formulaire Réservation
+ * Signature : voir fichier grille.css
  * Dates arrivée et départ
  * Nombre de personnes
  * Choix Chambres
@@ -43,7 +44,8 @@ footer {
 }
 
 /* Signature */
-/* le logo et titre du site sont stylés dans le fichier grille */
+/* le logo et titre du site 
+sont stylés dans le fichier grille */
 
 /* Base formulaire Réservation */
 
@@ -253,23 +255,6 @@ select:focus {
 
 button:focus {
     box-shadow: var(--bouton-box-shadow);
-}
-
-.signature:link {
-    color: rgb(172, 112, 39);
-}
-
-.signature:visited {
-    color: rgb(172, 112, 39);
-}
-
-.signature:hover {
-    color: green;
-}
-
-.signature:focus {
-    outline: none;
-    box-shadow: none;
 }
 
 /* Gestion des erreurs */

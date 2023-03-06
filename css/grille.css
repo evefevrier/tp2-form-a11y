@@ -12,6 +12,7 @@ body {
     flex-direction: column;
 }
 
+/* Grille pour le gabarit de mise en page */
 .ctnGrille {
     margin-left: 2rem;
     margin-right: 2rem;
@@ -51,7 +52,7 @@ body {
     }
 }
 
-
+/* Grille pour la signature */
 .signature {
     text-decoration: none;
     font-family: 'News Cycle', sans-serif;
@@ -120,4 +121,23 @@ body {
     .signature span:nth-of-type(4) {
         margin-left: -1rem;
     }
+}
+
+/* Couleurs de la signature */
+
+.signature:link {
+    color: rgb(172, 112, 39);
+}
+
+.signature:visited {
+    color: rgb(172, 112, 39);
+}
+
+.signature:hover {
+    color: green;
+}
+
+.signature:focus {
+    outline: none;
+    box-shadow: none;
 }
