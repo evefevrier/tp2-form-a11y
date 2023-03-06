@@ -260,11 +260,11 @@ button:focus {
 }
 
 .signature:visited {
-    color: var(--couleur-titres-h1-h3);
+    color: rgb(172, 112, 39);
 }
 
 .signature:hover {
-    color: green
+    color: green;
 }
 
 .signature:focus {
