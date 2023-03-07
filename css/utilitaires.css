@@ -3,13 +3,24 @@
 
 /****** Variables (peuvent être utilisées dans tous les fichiers) *******/
 :root {
-    --police-titre: 'News Cycle', sans-serif;
-    --police-texte: 'Roboto Slab', serif;
-    --couleur-titres-h1-h3: #551a8b;
+    --bouton-box-shadow: 5px 5px 5px;
+
+    --couleur-titres-h1-h3: var(--nav-background-color);
     --couleur-form: #cccccc8f;
     --couleur-bouton: lightskyblue;
-    --couleur-bouton-hover: azure;
-    --bouton-box-shadow: 5px 5px 5px;
+    /* --couleur-bouton-hover: azure; */
+    --couleur-bouton-hover: var(--couleur-bleu-jacana);
+    --couleur-bleu-jacana: rgb(6, 155, 248);
+    --couleur-brun-jacana: rgb(120, 76, 76);
+
+    --police-titre: 'News Cycle', sans-serif;
+    --police-texte: 'Roboto Slab', serif;
+
+    --nav-background-color: darkmagenta;
+    --nav-color: white;
+    --nav-hover-color: #fff;
+    --nav-hover-background-color: var(--couleur-bleu-jacana);
+    --nav-border-color: rgba(101, 68, 180, 1);
 }
 
 /*** Clearfix ***/

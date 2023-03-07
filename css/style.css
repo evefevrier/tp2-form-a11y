@@ -47,6 +47,15 @@ footer {
 /* le logo et titre du site 
 sont stylés dans le fichier grille */
 
+/* Couleurs */
+.jacana-brun {
+    color: var(--couleur-brun-jacana);
+}
+
+.jacana-bleu {
+    color: var(--couleur-bleu-jacana);
+}
+
 /* Base formulaire Réservation */
 
 .form-section {
@@ -89,7 +98,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+form button:hover {
     background-color: var(--couleur-bouton-hover);
     box-shadow: var(--bouton-box-shadow);
 }

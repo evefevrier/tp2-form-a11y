@@ -17,14 +17,19 @@
 
 h1,
 .h1,
+h3,
+.h3 {
+    color: var(--couleur-titres-h1-h3);
+    font-family: var(--police-titre);
+    font-weight: 600;
+}
+
 h2,
 .h2,
-h3,
-.h3,
 h4,
 .h4 {
     font-family: var(--police-titre);
-    font-weight: 600;
+    font-weight: 400;
 }
 
 

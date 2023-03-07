@@ -29,8 +29,7 @@
 
 .nav__control:hover,
 .nav__control:active {
-    color: #fff;
-    background-color: darkmagenta;
+    background-color: var(--nav-hover-background-color);
 }
 
 .nav__control:focus {
@@ -46,7 +45,7 @@
      * de modifier l'apparence du outline par défaut des navigateurs.
      */
     outline-offset: -5px;
-    outline: darkmagenta auto 5px;
+    outline: var(--nav-background-color) auto 5px;
 }
 
 /* Liste du menu */
@@ -76,6 +75,7 @@
 
 /* Liens du menu */
 .nav__link {
+    color: var(--nav-color);
     background-color: rgba(145, 0, 145, 0.2);
     display: block;
     padding: 5px 10px;
@@ -85,12 +85,11 @@
 .nav__link:link,
 .nav__link:visited {
     text-decoration: none;
-    color: inherit;
 }
 
 .nav__link:hover {
     color: #fff;
-    background-color: darkmagenta;
+    background-color: var(--nav-hover-background-color);
 }
 
 .nav__link:active {
@@ -101,7 +100,8 @@
 
 .nav__link:focus {
     outline-offset: -5px;
-    outline: darkmagenta auto 5px;
+    outline: var(--nav-background-color) auto 5px;
+    box-shadow: none;
 }
 
 @media (min-width: 600px) {
@@ -115,13 +115,13 @@
     pour l'item de menu actif
     **/
 .nav__link--active {
-    border-left: 5px solid rgba(101, 68, 180, 1);
+    border-left: 5px solid var(--nav-border-color);
 }
 
 @media (min-width: 600px) {
     .nav__link--active {
         border-left: none;
-        border-bottom: 5px solid rgba(101, 68, 180, 1);
+        border-bottom: 5px solid var(--nav-border-color);
     }
 }
 
